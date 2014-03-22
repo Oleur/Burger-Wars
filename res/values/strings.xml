@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Buger Wars</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    
+    <!-- Burger list strings -->
+    <string name="img_content">burger image</string>
+    <string name="text_burger_name">Burger name</string>
+    <string name="text_buy">Buy</string>
+    <string name="text_vegeterian">V</string>
+    <string name="text_username">Soldier THX1138</string>
+	<string name="text_budget">Budget: <b>Unlimited</b></string>
+	
+</resources>

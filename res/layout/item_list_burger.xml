@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="5dp"
+    android:paddingBottom="5dp" >
+
+    <ImageView
+        android:id="@+id/image_list_burger"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/ic_launcher"
+        android:scaleType="centerCrop"
+        android:contentDescription="@string/img_content" />
+
+    <TextView
+        android:id="@+id/text_list_vegie_indicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/image_list_burger"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="5dp"
+        android:background="@drawable/shape_vegetarien_text"
+        android:paddingLeft="2dp"
+        android:paddingRight="2dp"
+        android:text="@string/text_vegeterian"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#ffffff"
+        android:textColorHint="#ffffff"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/text_list_burger_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/image_list_burger"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_toLeftOf="@+id/button_list_burger_buy"
+        android:layout_toRightOf="@+id/image_list_burger"
+        android:text="@string/text_burger_name"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/button_list_burger_buy"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/shape_buy_button"
+        android:text="@string/text_buy"
+        android:textColor="#ffffff"
+        android:focusable="false" />
+
+</RelativeLayout>
